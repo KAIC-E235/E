@@ -8,7 +8,7 @@ export ARCH=arm64
 rm -rf AnyKernel
 export KBUILD_BUILD_HOST=Axioo
 export KBUILD_BUILD_USER="KazuHikari"
-git clone https://gitlab.com/onettboots/boolx-clang.git -b Clang-17.0_x86  clang
+git clone https://gitlab.com/LeCmnGend/proton-clang -b Clang-15  clang
 
 [ -d "out" ] && rm -rf out || mkdir -p out
 
